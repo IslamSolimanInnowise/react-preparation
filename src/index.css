@@ -8,6 +8,10 @@
   font-size: 1.1rem;
 }
 
+body {
+  margin-bottom: 10rem;
+}
+
 h1 {
   font-size: 2rem;
   color: red
