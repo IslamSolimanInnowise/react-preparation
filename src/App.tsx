@@ -1,6 +1,7 @@
 import UseContextHook from "./components/hooks/context/UseContextHook/UseContextHook";
 import UseEffectHook from "./components/hooks/effect/UseEffectHook/UseEffectHook";
 import UseLayoutEffectExample from "./components/hooks/effect/UseLayoutEffectHook/UseLayoutEffectHook";
+import UseCallbackHook from "./components/hooks/performance/UseCallbackHook/UseCallbackHook";
 import UseMemoHook from "./components/hooks/performance/UseMemoHook/UseMemoHook";
 import UseImperativeHandleHook from "./components/hooks/ref/UseImperativeHandleHook/UseImperativeHandleHook";
 import UseRefHook from "./components/hooks/ref/UseRefHook/UseRefHook";
@@ -32,9 +33,9 @@ const App: React.FC = () => {
       <UseLayoutEffectExample />
 
       {/* Performance Hooks */}
+      <h2>Performance Hooks</h2>
       <UseMemoHook />
-
-      {/* Custom Hooks */}
+      <UseCallbackHook />
     </div>
   );
 };
