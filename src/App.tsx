@@ -1,4 +1,5 @@
 import UseContextHook from "./components/hooks/context/UseContextHook/UseContextHook";
+import UseEffectHook from "./components/hooks/effect/UseEffectHook/UseEffectHook";
 import UseImperativeHandleHook from "./components/hooks/ref/UseImperativeHandleHook/UseImperativeHandleHook";
 import UseRefHook from "./components/hooks/ref/UseRefHook/UseRefHook";
 import UseReducerHook from "./components/hooks/state/UseReducerHook/UseReducerHook";
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       <UseImperativeHandleHook />
       {/* Effect Hooks */}
       <h2>Effect Hooks</h2>
+      <UseEffectHook />
       {/* Custom Hooks */}
     </div>
   );
