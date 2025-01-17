@@ -1,3 +1,4 @@
+import UseContextHook from "./components/hooks/context/UseContextHook/UseContextHook";
 import UseReducerHook from "./components/hooks/state/UseReducerHook/UseReducerHook";
 import UseStateHook from "./components/hooks/state/UseStateHook/UseStateHook";
 
@@ -8,6 +9,8 @@ const App: React.FC = () => {
       {/* State Hooks */}
       <UseStateHook />
       <UseReducerHook />
+      {/* Context Hooks */}
+      <UseContextHook />
     </div>
   );
 };
