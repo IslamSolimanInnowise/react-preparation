@@ -21,7 +21,7 @@ const UseStateHook: React.FC = () => {
 
   return (
     <div>
-      <h2>UseState Hook</h2>
+      <h3>UseState</h3>
       <button onClick={handleClick}>Current count is {count}</button>
     </div>
   );

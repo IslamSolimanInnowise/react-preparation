@@ -10,7 +10,7 @@ const UseReducerHook: React.FC = () => {
 
   return (
     <div>
-      <h2>UseReducer Hook</h2>
+      <h3>UseReducer</h3>
       <button onClick={handleAddition}>
         My Reducer count is {state.count}
       </button>

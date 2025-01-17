@@ -5,7 +5,7 @@ const UseContextHook: React.FC = () => {
   return (
     <MyAppContext>
       <div>
-        <h2>UseContext Hook</h2>
+        <h3>UseContext</h3>
         <Button />
       </div>
     </MyAppContext>
