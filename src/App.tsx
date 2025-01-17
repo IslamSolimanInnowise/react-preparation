@@ -1,6 +1,7 @@
 import UseContextHook from "./components/hooks/context/UseContextHook/UseContextHook";
 import UseEffectHook from "./components/hooks/effect/UseEffectHook/UseEffectHook";
 import UseLayoutEffectExample from "./components/hooks/effect/UseLayoutEffectHook/UseLayoutEffectHook";
+import UseMemoHook from "./components/hooks/performance/UseMemoHook/UseMemoHook";
 import UseImperativeHandleHook from "./components/hooks/ref/UseImperativeHandleHook/UseImperativeHandleHook";
 import UseRefHook from "./components/hooks/ref/UseRefHook/UseRefHook";
 import UseReducerHook from "./components/hooks/state/UseReducerHook/UseReducerHook";
@@ -29,6 +30,9 @@ const App: React.FC = () => {
       <h2>Effect Hooks</h2>
       <UseEffectHook />
       <UseLayoutEffectExample />
+
+      {/* Performance Hooks */}
+      <UseMemoHook />
 
       {/* Custom Hooks */}
     </div>

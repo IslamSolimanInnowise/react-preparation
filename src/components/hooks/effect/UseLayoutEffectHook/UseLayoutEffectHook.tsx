@@ -13,9 +13,15 @@ const UseLayoutEffectExample: React.FC = () => {
   return (
     <div
       ref={divRef}
-      style={{ width: "200px", height: "100px", backgroundColor: "lightblue" }}
+      style={{
+        width: "200px",
+        height: "100px",
+        backgroundColor: "lightblue",
+        margin: "auto",
+      }}
     >
-      This box changes color before you see it!
+      <h3>UseLayoutEffect</h3>
+      <p>This box changes color before you see it!</p>
     </div>
   );
 };
