@@ -8,6 +8,7 @@ import UseCallbackHook from "./components/hooks/performance/UseCallbackHook/UseC
 import UseDefferedValueHook from "./components/hooks/performance/UseDeferredValueHook/UseDefferedValue";
 import UseMemoHook from "./components/hooks/performance/UseMemoHook/UseMemoHook";
 import UseTransitionHook from "./components/hooks/performance/UseTransitionHook/UseTransitionHook";
+import UseActionStateHook from "./components/hooks/React19/UseActionStateHook/UseActionStateHook";
 import UseImperativeHandleHook from "./components/hooks/ref/UseImperativeHandleHook/UseImperativeHandleHook";
 import UseRefHook from "./components/hooks/ref/UseRefHook/UseRefHook";
 import UseReducerHook from "./components/hooks/state/UseReducerHook/UseReducerHook";
@@ -49,6 +50,10 @@ const App: React.FC = () => {
       <UseDebugValueHook />
       <UseIdHook />
       <UseSyncExternalStoreHook />
+
+      {/* React 19 Hooks */}
+      <h2>React 19 Hooks</h2>
+      <UseActionStateHook />
     </div>
   );
 };
