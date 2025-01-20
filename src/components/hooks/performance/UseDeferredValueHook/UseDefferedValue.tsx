@@ -11,7 +11,7 @@ const UseDeferredValueHook: React.FC = () => {
       <div>
         <input
           type="text"
-          placeholder="Search items..."
+          placeholder="Update the text below..."
           value={text}
           onChange={(e) => setText(e.target.value)}
         />

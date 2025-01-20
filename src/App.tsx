@@ -1,6 +1,7 @@
 import UseContextHook from "./components/hooks/context/UseContextHook/UseContextHook";
 import UseEffectHook from "./components/hooks/effect/UseEffectHook/UseEffectHook";
 import UseLayoutEffectExample from "./components/hooks/effect/UseLayoutEffectHook/UseLayoutEffectHook";
+import UseDebugValueHook from "./components/hooks/other/UseDebugValueHook/UseDebugValueHook";
 import UseCallbackHook from "./components/hooks/performance/UseCallbackHook/UseCallbackHook";
 import UseDefferedValueHook from "./components/hooks/performance/UseDeferredValueHook/UseDefferedValue";
 import UseMemoHook from "./components/hooks/performance/UseMemoHook/UseMemoHook";
@@ -40,6 +41,10 @@ const App: React.FC = () => {
       <UseCallbackHook />
       <UseTransitionHook />
       <UseDefferedValueHook />
+
+      {/* Other Hooks */}
+      <h2>Other Hooks</h2>
+      <UseDebugValueHook />
     </div>
   );
 };

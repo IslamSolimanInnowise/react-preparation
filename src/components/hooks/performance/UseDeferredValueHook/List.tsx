@@ -6,7 +6,9 @@ interface ListProps {
 
 const List: React.FC<ListProps> = ({ query }) => {
   const items = useMemo(() => {
-    return Array.from({ length: 10000 }, () => `You wrote: ${query}`);
+    return query.length > 0
+      ? Array.from({ length: 10000 }, () => `You wrote: ${query}`)
+      : [];
   }, [query]);
 
   return (
