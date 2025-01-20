@@ -4,6 +4,9 @@ export async function addToCart(prevState: unknown, queryData: FormData) {
   }
 
   const itemID = queryData.get("itemID");
+  const random = queryData.get("random");
+  console.log(random);
+
   if (itemID === "1") {
     return "Added to cart";
   } else {

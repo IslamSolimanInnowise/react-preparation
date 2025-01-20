@@ -4,6 +4,7 @@ import Timer2 from "./Timer2";
 
 const UseSyncExternalStoreHook: React.FC = () => {
   const [showNow, IsShowNow] = useState(true);
+
   return (
     <div>
       <h3>UseSyncExternalStore</h3>

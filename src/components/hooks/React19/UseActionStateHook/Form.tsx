@@ -13,6 +13,7 @@ const Form: React.FC<FormProps> = ({ itemID, itemTitle }) => {
     <form action={formAction}>
       <h4>{itemTitle}</h4>
       <input type="hidden" name="itemID" value={itemID} />
+      <input type="text" name="random" />
       <button type="submit">Add to Cart</button>
       {isPending ? "Loading..." : message}
     </form>
