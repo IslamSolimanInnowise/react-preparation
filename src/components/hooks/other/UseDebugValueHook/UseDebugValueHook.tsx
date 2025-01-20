@@ -1,6 +1,6 @@
 import { useTest } from "./useTest";
 
-const UseDebugValueHook = () => {
+const UseDebugValueHook: React.FC = () => {
   const { value, setValue } = useTest();
   return (
     <div>

@@ -1,7 +1,7 @@
 import { useDebugValue, useState } from "react";
 
 export function useTest() {
-  const [value, setValue] = useState("This is a text value");
+  const [value, setValue] = useState(1);
   useDebugValue(value);
   useDebugValue(`Only when devtools are open ${value}`, (v) => v.toUpperCase());
 
